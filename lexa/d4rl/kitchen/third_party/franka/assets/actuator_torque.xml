@@ -1,0 +1,14 @@
+<mujocoinclude>
+    <actuator>
+        <!-- Physical limits of the actuator. -->
+        <motor name="panda0_joint1" joint="panda0_joint1" class="panda" ctrllimited="true" ctrlrange="-80.0 80.0"/>
+        <motor name="panda0_joint2" joint="panda0_joint2" class="panda" ctrllimited="true" ctrlrange="-80.0 80.0" />
+        <motor name="panda0_joint3" joint="panda0_joint3" class="panda" ctrllimited="true" ctrlrange="-80.0 80.0" />
+        <motor name="panda0_joint4" joint="panda0_joint4" class="panda" ctrllimited="true" ctrlrange="-80.0 80.0" />
+        <motor name="panda0_joint5" joint="panda0_joint5" class="panda" ctrllimited="true" ctrlrange="-80.0 80.0" />
+        <motor name="panda0_joint6" joint="panda0_joint6" class="panda" ctrllimited="true" ctrlrange="-12.0 12.0" />
+        <motor name="panda0_joint7" joint="panda0_joint7" class="panda" ctrllimited="true" ctrlrange="-12.0 12.0"/>
+        <position name="r_gripper_finger_joint" joint="panda0_finger_joint1" class="panda_finger" kp="500" forcerange="-70 70" ctrlrange="0 0.04"/> <!-- velocity=".2" -->
+        <position name="l_gripper_finger_joint" joint="panda0_finger_joint2" class="panda_finger" kp="500" forcerange="-70 70" ctrlrange="0 0.04"/> <!-- velocity=".2" -->
+    </actuator>
+</mujocoinclude>

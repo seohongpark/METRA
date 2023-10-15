@@ -1,0 +1,22 @@
+akro
+click
+cloudpickle
+cma==2.7.0
+dm_env
+dowel==0.0.3
+gym[atari, box2d, classic_control]==0.17.2
+joblib<0.13,>=0.12
+psutil
+pyprind
+python-dateutil
+scikit-image
+scipy
+setproctitle
+tensorflow
+tensorflow-probability
+
+# dev dependencies
+matplotlib
+recommonmark
+sphinx
+sphinx_rtd_theme
